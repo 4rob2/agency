@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/mystyles.css" rel="stylesheet" media="all" type="css/text">
-    <script src="traveler.html/jquery-1.12.0.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    <script src="traveler.html/traveler.html.js"></script>
+    <link href="css/styles.css" rel="stylesheet" media="all" type="css/text">
+    <script src="js/jquery-1.12.0(1).js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="agency/scripts.js"></script>
     <title>Vacation Finder</title>
   </head>
   <body>
@@ -37,10 +36,10 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="">
+          <label for="activity">
             Do you prefer activity that is hands on or passing by with a camera?
           </label>
-          <select id="nature">
+          <select id="activity">
             <option><em>HandsOn<em><option>
             <option><em>Camera<em><option>
           </select>
@@ -64,24 +63,39 @@
           </select>
         </div>
     </div>
-    <div id="warm results">
+    <div id="warm">
       <ul>
-        <li class="hideme" id="G">
+        <li id="G">
         <li><img src="images/g.jpg">
         <h3>Galapagos Islands Cruise<h3>
         </li>
-        <li class="hideme" id="H">
+        <li id="H">
         <li><img src="images/Hawaii.jpeg">
         <h3>Hawaiian Cruise<h3>
         </li>
-        <li class="hideme" id="A">
+        <li id="A">
         <li><img src="images/Africa.jpg">
         <h3>African Safari Cruise<h3>
         </li>
-
       </ul>
     </div>
-
+  </div>
+  <div id="man results">
+    <ul>
+      <li id="M">
+      <li><img src="images/man.jpg">
+      <h3>Isle of Man Cruise<h3>
+      </li>
+      <li id="AN">
+      <li><img src="images/ant.jpeg">
+      <h3>Fort Smith Antarctica Cruise<h3>
+      </li>
+      <li id="N">
+      <li><img src="images/pyramid.jpg">
+      <h3>Nile River Pyramid Cruise<h3>
+      </li>
+    </ul>
+  </div>
 
   </body>
 </html>

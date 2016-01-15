@@ -1,2 +1,31 @@
 
-.hideme {display: none;}
+#G {
+  display: none;
+}
+
+#H {
+  display: none;
+}
+
+#A {
+  display: none;
+}
+
+#M {
+  display: none
+}
+
+#AN {
+  display: none;
+}
+
+#N {
+  display: none;
+}
+.header1 {
+  text-align: center;
+  font-size: 48pt;
+}
+body {
+background-color: #abcdef;
+}
