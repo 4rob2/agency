@@ -29,5 +29,11 @@
 }
 
 .button {
-  color: #abcdef;
+  background-color: #abcdef;
+}
+#warm {display: none;}
+#man {display: none;}
+#finder {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
