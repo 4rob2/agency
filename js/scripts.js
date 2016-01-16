@@ -36,6 +36,8 @@ $(document).ready(function() {
       //$("#quizresult").text(result);
       $("#" + result).show();
       $("#" + result).siblings().hide();
+      $(result).show();
+      $(amenities).show();
 
       event.preventDefault();
     });

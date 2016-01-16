@@ -25,7 +25,9 @@
 .header1 {
   text-align: center;
   font-size: 48pt;
+  background-color: #abcdef;
 }
-body {
-background-color: #abcdef;
+
+.button {
+  color: #abcdef;
 }
