@@ -1,59 +1,97 @@
+.container {
+  background-color: #ffff00;
+}
 
 #galapagos {
   display: none;
-  }
+  position: auto;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+}
 #hawaii {
   display: none;
-  }
+  position: auto;
+  width: 300px;
+  border: 2px solid #73AD21;
+  float: top;
+}
 
 #africa {
   display: none;
-  }
+  position: auto;
+  left: 0px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #73AD21;
+  padding: 10px;
+  float:left;
+}
 
 #isleofman {
-  display: none
-  }
+  display: none;
+  position: auto;
+  right: 0px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #73AD21;
+  padding: 10px;
+}
 
 #antarctica {
   display: none;
-  }
+  right: 5px;
+  width: 300px;
+  border: 2px solid #73AD21;
+  float: top;
+}
 
 #egypt {
   display: none;
-  display: block; margin-left: auto; margin-right: auto;
-  }
+  position: auto;
+  left: 0px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid #73AD21;
+  padding: 10px;
+  float:left;
+}
 
-  #rescue {
-    display: none;
-    text-align: center;
-    }
-  #yacht {
-    display: none;
-    text-align: center;
+#rescue {
+  display: none;
+  text-align: center;
+  vertical-align: bottom;
 }
-  #safari {
-    display: none;
-    text-align: center;
+
+#yacht {
+  display: none;
+  text-align: center;
 }
-  #dig {
-    display: none;
-    text-align: center;
+#safari {
+  display: none;
+  text-align: center;
 }
-  #whale {
-    display: none;
-    text-align: center;
+#dig {
+  display: none;
+  text-align: center;
 }
-  #ancient {
-    display: none;
-    text-align: center;
+#whale {
+  display:none;
+  text-align:center;
 }
-  #kids {
-    display: none;
-    text-align: center;
+#ancient {
+  display: none;
+  text-align:center;
 }
-  #celebrate {
-    display: none;
-    text-align: center;
+#kids {
+  display: none;
+  text-align: center;
+}
+#celebrate {
+  display: none;
+  text-align: center;
 }
 
 .header1 {
@@ -64,11 +102,13 @@
 
 
 #finder {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top:100px;
+  padding-bottom: 100px;
   }
 
 #banner {
   text-align:center;
-  padding-top: 60px;
+  font-style: oblique;
+  border-width: 2px;
+  padding-top: 100px;
   }
