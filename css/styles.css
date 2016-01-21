@@ -1,39 +1,74 @@
 
-#G {
+#galapagos {
   display: none;
-}
-
-#H {
+  }
+#hawaii {
   display: none;
-}
+  }
 
-#A {
+#africa {
   display: none;
-}
+  }
 
-#M {
+#isleofman {
   display: none
+  }
+
+#antarctica {
+  display: none;
+  }
+
+#egypt {
+  display: none;
+  display: block; margin-left: auto; margin-right: auto;
+  }
+
+  #rescue {
+    display: none;
+    text-align: center;
+    }
+  #yacht {
+    display: none;
+    text-align: center;
+}
+  #safari {
+    display: none;
+    text-align: center;
+}
+  #dig {
+    display: none;
+    text-align: center;
+}
+  #whale {
+    display: none;
+    text-align: center;
+}
+  #ancient {
+    display: none;
+    text-align: center;
+}
+  #kids {
+    display: none;
+    text-align: center;
+}
+  #celebrate {
+    display: none;
+    text-align: center;
 }
 
-#AN {
-  display: none;
-}
-
-#N {
-  display: none;
-}
 .header1 {
   text-align: center;
   font-size: 48pt;
   background-color: #abcdef;
-}
+  }
 
-.button {
-  background-color: #abcdef;
-}
-#warm {display: none;}
-#man {display: none;}
+
 #finder {
   padding-top: 60px;
   padding-bottom: 60px;
-}
+  }
+
+#banner {
+  text-align:center;
+  padding-top: 60px;
+  }
